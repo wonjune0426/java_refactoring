@@ -11,5 +11,10 @@ public class MagicNumberMain {
         afterRobot.order(AfterRobot.COMMAND_WALK);
         afterRobot.order(AfterRobot.COMMAND_STOP);
         afterRobot.order(AfterRobot.COMMAND_JUMP);
+
+        EnumRobot enumRobot = new EnumRobot("Andrew");
+        enumRobot.order(EnumRobot.Command.WALK);
+        enumRobot.order(EnumRobot.Command.STOP);
+        enumRobot.order(EnumRobot.Command.JUMP);
     }
 }
