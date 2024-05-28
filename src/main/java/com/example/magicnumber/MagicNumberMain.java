@@ -6,5 +6,10 @@ public class MagicNumberMain {
         beforeRobot.order(1); // walk
         beforeRobot.order(2); // stops
         beforeRobot.order(3); // jump
+
+        AfterRobot afterRobot = new AfterRobot("Andrew");
+        afterRobot.order(AfterRobot.COMMAND_WALK);
+        afterRobot.order(AfterRobot.COMMAND_STOP);
+        afterRobot.order(AfterRobot.COMMAND_JUMP);
     }
 }

@@ -2,7 +2,7 @@ package com.example.magicnumber;
 
 
 public class BeforeRobot {
-    private String _name;
+    private final String _name;
 
     public BeforeRobot (String name){
         _name = name;
